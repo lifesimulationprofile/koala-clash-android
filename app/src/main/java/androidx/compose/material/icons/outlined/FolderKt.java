@@ -1,0 +1,47 @@
+package androidx.compose.material.icons.outlined;
+
+import androidx.compose.ui.graphics.Color;
+import androidx.compose.ui.graphics.SolidColor;
+import androidx.compose.ui.graphics.vector.ImageVector;
+import androidx.compose.ui.graphics.vector.VectorKt;
+import okhttp3.Headers;
+
+/* JADX INFO: compiled from: r8-map-id-642a9409e8c86705d83235ec931e7b4e3b870bec9858ab19ec33568b7f2d7797 */
+/* JADX INFO: loaded from: classes.dex */
+public abstract class FolderKt {
+    public static ImageVector _folder;
+
+    public static final ImageVector getFolder() {
+        ImageVector imageVector = _folder;
+        if (imageVector != null) {
+            return imageVector;
+        }
+        ImageVector.Builder builder = new ImageVector.Builder("Outlined.Folder", 24.0f, 24.0f, 24.0f, 24.0f, 0L, 0, false, 96);
+        int i = VectorKt.$r8$clinit;
+        SolidColor solidColor = new SolidColor(Color.Black);
+        Headers.Builder builder2 = new Headers.Builder(2);
+        builder2.moveTo(9.17f, 6.0f);
+        builder2.lineToRelative(2.0f, 2.0f);
+        builder2.horizontalLineTo(20.0f);
+        builder2.verticalLineToRelative(10.0f);
+        builder2.horizontalLineTo(4.0f);
+        builder2.verticalLineTo(6.0f);
+        builder2.horizontalLineToRelative(5.17f);
+        builder2.moveTo(10.0f, 4.0f);
+        builder2.horizontalLineTo(4.0f);
+        builder2.curveToRelative(-1.1f, 0.0f, -1.99f, 0.9f, -1.99f, 2.0f);
+        builder2.lineTo(2.0f, 18.0f);
+        builder2.curveToRelative(0.0f, 1.1f, 0.9f, 2.0f, 2.0f, 2.0f);
+        builder2.horizontalLineToRelative(16.0f);
+        builder2.curveToRelative(1.1f, 0.0f, 2.0f, -0.9f, 2.0f, -2.0f);
+        builder2.verticalLineTo(8.0f);
+        builder2.curveToRelative(0.0f, -1.1f, -0.9f, -2.0f, -2.0f, -2.0f);
+        builder2.horizontalLineToRelative(-8.0f);
+        builder2.lineToRelative(-2.0f, -2.0f);
+        builder2.close();
+        ImageVector.Builder.m500addPathoIyEayM$default(builder, builder2.namesAndValues, solidColor);
+        ImageVector imageVectorBuild = builder.build();
+        _folder = imageVectorBuild;
+        return imageVectorBuild;
+    }
+}

@@ -1,0 +1,18 @@
+package com.google.android.gms.common.api;
+
+import com.google.android.gms.common.Feature;
+
+/* JADX INFO: compiled from: r8-map-id-642a9409e8c86705d83235ec931e7b4e3b870bec9858ab19ec33568b7f2d7797 */
+/* JADX INFO: loaded from: classes.dex */
+public final class UnsupportedApiCallException extends UnsupportedOperationException {
+    public final Feature zza;
+
+    public UnsupportedApiCallException(Feature feature) {
+        this.zza = feature;
+    }
+
+    @Override // java.lang.Throwable
+    public final String getMessage() {
+        return "Missing ".concat(String.valueOf(this.zza));
+    }
+}
