@@ -1,0 +1,10 @@
+package androidx.compose.ui.unit;
+
+/* JADX INFO: compiled from: r8-map-id-642a9409e8c86705d83235ec931e7b4e3b870bec9858ab19ec33568b7f2d7797 */
+/* JADX INFO: loaded from: classes.dex */
+public abstract class DpKt {
+    /* JADX INFO: renamed from: DpSize-YgX7TsA, reason: not valid java name */
+    public static final long m703DpSizeYgX7TsA(float f, float f2) {
+        return (((long) Float.floatToRawIntBits(f2)) & 4294967295L) | (Float.floatToRawIntBits(f) << 32);
+    }
+}

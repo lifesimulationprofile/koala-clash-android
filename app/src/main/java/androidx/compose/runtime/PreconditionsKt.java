@@ -1,0 +1,13 @@
+package androidx.compose.runtime;
+
+/* JADX INFO: compiled from: r8-map-id-642a9409e8c86705d83235ec931e7b4e3b870bec9858ab19ec33568b7f2d7797 */
+/* JADX INFO: loaded from: classes.dex */
+public abstract class PreconditionsKt {
+    public static final void throwIllegalArgumentException(String str) {
+        throw new IllegalArgumentException(str);
+    }
+
+    public static final void throwIllegalStateException(String str) {
+        throw new IllegalStateException(str);
+    }
+}
